@@ -4,10 +4,10 @@
         "port": "5000"
     },
     "database": {
-        "host": "localhost",
-        "user": "root",
-        "password": "root",
-        "db": "testdb",
+        "host": "us-cdbr-east-03.cleardb.com/heroku_0c5f05934c6b777?reconnect=true",
+        "user": "b7ef31a3f8ac4c",
+        "password": "e7d4c27e",
+        "db": "heroku_0c5f05934c6b777",
         "dialect": "mysql",
         "pool": {
             "max": 5,

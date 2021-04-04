@@ -1,0 +1,33 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": "5000"
+    },
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "root",
+        "db": "testdb",
+        "dialect": "mysql",
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "acquire": 30000,
+            "idle": 10000
+        }
+    },
+    "awsdatabase": {
+        "host": "database-1.cs7hupwngjxt.ap-south-1.rds.amazonaws.com",
+        "user": "admin",
+        "password": "Chinu#1998",
+        "db": "testdb",
+        "dialect": "mysql",
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "acquire": 30000,
+            "idle": 10000
+                }
+        },
+    "secretKey":"kshitiz-secret-key"
+}

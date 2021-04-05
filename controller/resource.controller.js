@@ -18,7 +18,7 @@ exports.userlist = (req, res) => {
         res.status(200).send(data);
         }
         else{
-            res.send({message: "first name doesnot exist"})
+            res.status(404).send({message: "first name doesnot exist"})
         }
     })
 
@@ -38,7 +38,7 @@ exports.userlist = (req, res) => {
             res.status(200).send(data);
             }
             else{
-                res.send({message: "last name doesnot exist"})
+                res.status(404).send({message: "last name doesnot exist"})
             }
     })   
 
@@ -59,7 +59,7 @@ exports.userlist = (req, res) => {
             res.status(200).send(data);
             }
             else{
-                res.send({message: "empid doesnot exist"})
+                res.status(404).send({message: "empid doesnot exist"})
             }
     })
     
@@ -76,7 +76,7 @@ else{
             res.status(200).send(data);
             }
             else{
-                res.send({message: "No records found"})
+                res.status(404).send({message: "No records found"})
             }
     })
 
